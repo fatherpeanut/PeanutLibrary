@@ -1,0 +1,8 @@
+D:\Documents\Visual Studio 2010\Projects\PeanutLibrary\Testing\bin\Debug\Testing.exe
+D:\Documents\Visual Studio 2010\Projects\PeanutLibrary\Testing\bin\Debug\Testing.pdb
+D:\Documents\Visual Studio 2010\Projects\PeanutLibrary\Testing\bin\Debug\PeanutLibrary.dll
+D:\Documents\Visual Studio 2010\Projects\PeanutLibrary\Testing\bin\Debug\PeanutLibrary.pdb
+D:\Documents\Visual Studio 2010\Projects\PeanutLibrary\Testing\obj\x86\Debug\Testing.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2010\Projects\PeanutLibrary\Testing\obj\x86\Debug\Testing.exe
+D:\Documents\Visual Studio 2010\Projects\PeanutLibrary\Testing\obj\x86\Debug\Testing.pdb
+D:\Documents\Visual Studio 2010\Projects\PeanutLibrary\Testing\bin\Debug\Testing.exe.config

@@ -1,0 +1,4 @@
+D:\Documents\Visual Studio 2010\Projects\PeanutLibrary\PeanutLibrary\bin\Debug\PeanutLibrary.dll
+D:\Documents\Visual Studio 2010\Projects\PeanutLibrary\PeanutLibrary\bin\Debug\PeanutLibrary.pdb
+D:\Documents\Visual Studio 2010\Projects\PeanutLibrary\PeanutLibrary\obj\Debug\PeanutLibrary.dll
+D:\Documents\Visual Studio 2010\Projects\PeanutLibrary\PeanutLibrary\obj\Debug\PeanutLibrary.pdb

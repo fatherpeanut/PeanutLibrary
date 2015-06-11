@@ -12,10 +12,8 @@ namespace Testing
         {
             PeanutLibrary.Config.ConnectionHelper config = new PeanutLibrary.Config.ConnectionHelper();
             Console.WriteLine(config.GetValue("abc"));
-
-            Console.ReadLine();
-            
-            
+            PeanutLibrary.Config.ConnectionHelper configUser = new PeanutLibrary.Config.ConnectionHelper("Config\\User.config");
+            Console.WriteLine(configUser.GetValue("abc"));
         }
     }
 }
