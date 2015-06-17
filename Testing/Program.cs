@@ -10,10 +10,7 @@ namespace Testing
     {
         static void Main(string[] args)
         {
-            PeanutLibrary.Config.ConnectionHelper config = new PeanutLibrary.Config.ConnectionHelper();
-            Console.WriteLine(config.GetValue("abc"));
-            PeanutLibrary.Config.ConnectionHelper configUser = new PeanutLibrary.Config.ConnectionHelper("Config\\User.config");
-            Console.WriteLine(configUser.GetValue("abc"));
+            PeanutLibrary.DataBase.IDbHelper db = new PeanutLibrary.DataBase.SqlHelper();
         }
     }
 }

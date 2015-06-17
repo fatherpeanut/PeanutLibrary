@@ -38,24 +38,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Config\AppSettingHelper.cs" />
+    <Compile Include="Config\AppSectionHelper.cs" />
     <Compile Include="Config\ConfigAbs.cs" />
-    <Compile Include="Config\ConfigHelper.cs" />
     <Compile Include="Config\ConnectionHelper.cs" />
-    <Compile Include="DataBase\AccessHelper.cs" />
+    <Compile Include="Config\IConfigHelper.cs" />
     <Compile Include="DataBase\DbAbs.cs" />
+    <Compile Include="DataBase\DbConfig.cs" />
     <Compile Include="DataBase\IDbHelper.cs" />
     <Compile Include="DataBase\IDbParameter.cs" />
-    <Compile Include="DataBase\IDbPrivate.cs" />
     <Compile Include="DataBase\IDbProcedure.cs" />
     <Compile Include="DataBase\IDbPublic.cs" />
     <Compile Include="DataBase\IDbSimple.cs" />
     <Compile Include="DataBase\IDbTransaction.cs" />
-    <Compile Include="DataBase\MySqlHelper.cs" />
-    <Compile Include="DataBase\OracleHelper.cs" />
+    <Compile Include="Enum\EnumType.cs" />
+    <Compile Include="Exception\ConfigException.cs" />
+    <Compile Include="Exception\DbException.cs" />
+    <Compile Include="Exception\EnumException.cs" />
+    <Compile Include="Exception\LibraryException.cs" />
+    <Compile Include="Exception\StringException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DataBase\SqlHelper.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

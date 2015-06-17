@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PeanutLibrary.DataBase
 {
-    public interface IDbHelper : IDbPrivate, IDbPublic, IDbSimple, IDbParameter, IDbProcedure, IDbTransaction
+    public interface IDbHelper : IDbPublic, IDbSimple, IDbParameter, IDbProcedure, IDbTransaction
     {
     }
 }
