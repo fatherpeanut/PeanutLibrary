@@ -7,6 +7,9 @@ using System.Collections;
 
 namespace PeanutLibrary.DataBase
 {
+    /// <summary>
+    /// Sql帮助类，继承于DbAbs抽象类和IDbHelper接口
+    /// </summary>
     public class SqlHelper : DbAbs, IDbHelper
     {
         #region 构造函数
